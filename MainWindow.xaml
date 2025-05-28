@@ -1,0 +1,36 @@
+<Window x:Class="MultiTab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Catalog Produse - Firma de Asamblare"
+        Height="500" Width="800"
+        Background="#ecf0f1"
+        WindowStartupLocation="CenterScreen">
+
+    <Border Margin="20" Background="White" CornerRadius="10" BorderBrush="#ccc" BorderThickness="1" Padding="20">
+        <StackPanel>
+
+            <!-- Butoane autentificare -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,15" >
+                <Button Content="LogIn" FontSize="18" Width="120" Height="40" Background="#2980b9" Foreground="White" FontWeight="Bold" Click="Button_LogIn"/>
+                <Button Content="CreareCont" FontSize="18" Width="150" Height="40" Background="#27ae60" Foreground="White" FontWeight="Bold" Click="Button_CreareCont"/>
+            </StackPanel>
+
+            <!-- Butoane de filtrare -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10" >
+                <Button Content="Toate" Click="Filtru_Click" Tag="toate" Margin="3"/>
+                <Button Content="Desktop PC" Click="Filtru_Click" Tag="desktop" Margin="3"/>
+                <Button Content="Laptop" Click="Filtru_Click" Tag="laptop" Margin="3"/>
+                <Button Content="Imprimante" Click="Filtru_Click" Tag="imprimanta" Margin="3"/>
+                <Button Content="Periferice" Click="Filtru_Click" Tag="periferice" Margin="3"/>
+                <Button Content="Componente" Click="Filtru_Click" Tag="componente" Margin="3"/>
+                <Button Content="Promoții"   Click="Filtru_Click" Tag="promotii" Margin="3" />
+            </StackPanel>
+
+            <!-- Titlu catalog -->
+            <TextBlock Text="🛒 Produse disponibile:" FontSize="24" FontWeight="SemiBold" Foreground="#2c3e50" HorizontalAlignment="Center" Margin="0,10"/>
+
+            <!-- Listă produse -->
+            <ListBox x:Name="ListaProduseMain" FontSize="16" Margin="10" Height="300" Background="#fefefe" BorderBrush="#bdc3c7" BorderThickness="1" Padding="10" Foreground="#2c3e50" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </Border>
+</Window>

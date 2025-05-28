@@ -1,0 +1,212 @@
+[
+  {
+    "Nume": "PC Gaming Amd",
+    "Pret": 4300.0,
+    "Descriere": "Sistem performant cu Ryzen 5 \u0219i RX 6600 XT.",
+    "Categorie": "desktop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "Laptop Business Dell",
+    "Pret": 3200.0,
+    "Descriere": "Laptop i5, 16GB RAM, SSD 512GB pentru munc\u0103 \u0219i birou.",
+    "Categorie": "laptop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "Imprimant\u0103 HP LaserJet",
+    "Pret": 890.0,
+    "Descriere": "Imprimant\u0103 laser monocrom\u0103 pentru birou.",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "Mouse Redragon",
+    "Pret": 120,
+    "Descriere": "Mouse de gaming optic cu iluminare RGB",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "HyperX Alloy Tastatura",
+    "Pret": 500,
+    "Descriere": "Cea mai buna tastatura",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "PowerBox X500",
+    "Pret": 3500,
+    "Descriere": "Sistem desktop pentru gaming cu procesor i7, 16GB RAM si placa video RTX 3060. Performanta stabila in jocuri moderne si aplicatii intensive.\u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "desktop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "OfficeLine Basic",
+    "Pret": 1850,
+    "Descriere": "PC optimizat pentru birou, cu SSD de 512GB si procesor eficient. Ideal pentru taskuri de zi cu zi. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "desktop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "StudioPro Z3",
+    "Pret": 4100,
+    "Descriere": "Sistem puternic pentru creatori de continut, cu placa video dedicata si 32GB RAM. \u2605\u2605\u2605\u2605\u2605",
+    "Categorie": "desktop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "MiniCube Silent",
+    "Pret": 2300,
+    "Descriere": "Desktop compact si silentios, cu SSD si design minimalist. Usor de integrat in orice spatiu. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "desktop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "FlexStation V2",
+    "Pret": 2700,
+    "Descriere": "PC versatil pentru acasa sau birou, cu hardware echilibrat si constructie durabila. \u2605\u2605\u2605\u2606\u2606",
+    "Categorie": "destkop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "SmartBook S14",
+    "Pret": 2600,
+    "Descriere": "Laptop subtire si usor, cu ecran Full HD si autonomie mare. Perfect pentru studenti si freelanceri. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "laptop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "WorkPro B5",
+    "Pret": 3250,
+    "Descriere": "Laptop business cu tastatura iluminata, Intel i5 si carcasa metalica. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "laptop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "GameMaster R9",
+    "Pret": 5000,
+    "Descriere": "Laptop de gaming cu RTX 4050 si ecran 144Hz. Experienta fluenta in jocuri competitive. \u2605\u2605\u2605\u2605\u2605",
+    "Categorie": "lapop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "EcoLite A2",
+    "Pret": 2100,
+    "Descriere": "Laptop accesibil pentru navigare, filme si documente. Consum redus de energie. \u2605\u2605\u2605\u2606\u2606",
+    "Categorie": "laptop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "CreatorBook M15",
+    "Pret": 4400,
+    "Descriere": "Laptop cu ecran IPS si stocare rapida NVMe, ideal pentru editare foto-video. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "laptop",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "LaserJet Basic 1100",
+    "Pret": 750,
+    "Descriere": "Imprimanta laser monocrom cu viteza mare si cost mic pe pagina. Perfecta pentru birouri. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "ColorInk 210W",
+    "Pret": 1100,
+    "Descriere": "Imprimanta color cu Wi-Fi si duplex automat. Ideala pentru prezentari si materiale vizuale.",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "EcoTank SmartPrint",
+    "Pret": 950,
+    "Descriere": "Imprimanta cu rezervoare de cerneala reincarcabile, economie excelenta pe termen lung. \u2605\u2605\u2605\u2605\u2605",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "PhotoLab Jet X",
+    "Pret": 1600,
+    "Descriere": "Imprimanta dedicata fotografiilor cu detalii vibrante si suport borderless. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "DocMate MFP",
+    "Pret": 680,
+    "Descriere": "Multifunctionala compacta cu scanare si copiere. Conectivitate prin USB si retea locala. \u2605\u2605\u2605\u2606\u2606",
+    "Categorie": "imprimanta",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "MechaKey RGB Pro",
+    "Pret": 290,
+    "Descriere": "Tastatura mecanica cu iluminare RGB si switch-uri tactile. Experienta excelenta in gaming \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "SilentMouse W1",
+    "Pret": 110,
+    "Descriere": "Mouse wireless ergonomic cu senzori de precizie si clickuri silentioase \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "BassHead Surround",
+    "Pret": 430,
+    "Descriere": "Casti over-ear cu sunet 7.1 si microfon detasabil. Comfort sporit pentru sesiuni lungi. \u2605\u2605\u2605\u2605\u2605",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "CamView HD2",
+    "Pret": 170,
+    "Descriere": "Camera web Full HD cu microfon integrat si auto-focus. Perfecta pentru videoconferinte. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "UltraMat XXL",
+    "Pret": 75,
+    "Descriere": "Mouse pad de mari dimensiuni cu suprafata anti-alunecare si margini cusute. \u2605\u2605\u2605\u2606\u2606",
+    "Categorie": "periferice",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "DDR4 16GB HyperX 3200MHz",
+    "Pret": 260,
+    "Descriere": "Memorie RAM performanta pentru multitasking si jocuri. Compatibila cu cele mai noi placi de baza. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "componente",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "Intel Core i5-12400F",
+    "Pret": 840,
+    "Descriere": "Procesor cu 6 nuclee si performanta solida pentru sistemele mid-range. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "componente",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "WD Blue NVMe 1TB SSD",
+    "Pret": 460,
+    "Descriere": "Unitate de stocare rapida pentru boot, aplicatii si jocuri. \u2605\u2605\u2605\u2605\u2605",
+    "Categorie": "componente",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "ARCTIC Freezer 34 eSports",
+    "Pret": 170,
+    "Descriere": "Cooler pe aer performant si silentios. Ideal pentru procesoare cu TDP ridicat. \u2605\u2605\u2605\u2606\u2606",
+    "Categorie": "componente",
+    "Cantitate": 1
+  },
+  {
+    "Nume": "ASRock B660M-HDV",
+    "Pret": 410,
+    "Descriere": "Placa de baza fiabila pentru Intel 12th Gen, cu sloturi M.2 si DDR4. \u2605\u2605\u2605\u2605\u2606",
+    "Categorie": "componente",
+    "Cantitate": 1
+  }
+]

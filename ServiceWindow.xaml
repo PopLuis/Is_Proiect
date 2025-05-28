@@ -1,0 +1,23 @@
+﻿<Window x:Class="MultiTab.ServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Service" Height="450" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Nume complet:"/>
+            <TextBox x:Name="txtNume" Margin="0,5"/>
+
+            <TextBlock Text="Email:" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtEmail" Margin="0,5"/>
+
+            <TextBlock Text="Descrierea problemei:" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtProblema" Margin="0,5" Height="100" TextWrapping="Wrap"/>
+
+            <TextBlock Text="Data programării:" Margin="0,10,0,0"/>
+            <DatePicker x:Name="dpData" Margin="0,5"/>
+
+            <Button Content="Trimite cererea" Click="TrimiteCererea_Click" Margin="0,20"/>
+        </StackPanel>
+    </Grid>
+</Window>

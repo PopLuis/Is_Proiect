@@ -1,0 +1,22 @@
+[
+  {
+    "NumeClient": "Flo",
+    "Email": "flo@gmail.com",
+    "DescriereProblema": "E greu",
+    "DataCerere": "2025-05-28T17:39:30.7007802+03:00",
+    "DataProgramare": "2025-05-30T00:00:00",
+    "Status": "Finalizat",
+    "AngajatAsignat": null,
+    "Observatii": null
+  },
+  {
+    "NumeClient": "user1",
+    "Email": "user1@gmail.com",
+    "DescriereProblema": "Nu merge sa reglez WIFI",
+    "DataCerere": "2025-05-28T19:19:30.0679931+03:00",
+    "DataProgramare": "2025-05-30T00:00:00",
+    "Status": "\u00CEn lucru",
+    "AngajatAsignat": null,
+    "Observatii": null
+  }
+]

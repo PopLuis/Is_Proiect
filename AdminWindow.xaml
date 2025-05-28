@@ -1,0 +1,23 @@
+﻿<Window x:Class="MultiTab.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Panou Administrator" Height="380" Width="400" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+
+        <TextBox x:Name="NumeTextBox" Text="Nume produs" Margin="0,0,0,10"/>
+        <TextBox x:Name="PretTextBox" Text="Preț produs" Margin="0,0,0,10"/>
+        <TextBox x:Name="DescriereTextBox" Text="Descriere produs" Margin="0,0,0,10"/>
+
+        <ComboBox x:Name="CategorieComboBox" Margin="0,0,0,10" SelectedIndex="0">
+            <ComboBoxItem Content="desktop"/>
+            <ComboBoxItem Content="laptop"/>
+            <ComboBoxItem Content="imprimanta"/>
+            <ComboBoxItem Content="periferice"/>
+            <ComboBoxItem Content="componente"/>
+        </ComboBox>
+
+        <Button Content="Adaugă produs" Click="AdaugaProdus_Click" Width="150" Margin="0,0,0,10"/>
+
+        <ListBox x:Name="ListaProduse" Height="200"/>
+    </StackPanel>
+</Window>

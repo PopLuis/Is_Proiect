@@ -1,0 +1,123 @@
+﻿<Window x:Class="MultiTab.ManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.microsoft.com/winfx/2008/xaml"
+        xmlns:local="clr-namespace:MultiTab"
+        Title="Panou Manager" Height="600" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="1">
+            <TabItem Header="Gestionare Angajați">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <GroupBox Header="Adaugă Angajat Nou" Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+                        <StackPanel Margin="5">
+                            <Label Content="Nume Utilizator:"/>
+                            <TextBox x:Name="txtNumeUtilizatorAngajat" Margin="0,0,0,5"/>
+                            <Label Content="Parolă:"/>
+                            <PasswordBox x:Name="pwdParolaAngajat" Margin="0,0,0,5"/>
+                            <Label Content="Tip Angajat:"/>
+                            <ComboBox x:Name="cmbTipAngajat" Margin="0,0,0,5">
+                                <ComboBoxItem Content="Junior"/>
+                                <ComboBoxItem Content="Senior"/>
+                            </ComboBox>
+                            <Label Content="Email:"/>
+                            <TextBox x:Name="txtEmailAngajat" Margin="0,0,0,10"/>
+                            <Button Content="Adaugă Angajat" Click="BtnAdaugaAngajat_Click" Padding="5"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Șterge Angajat Existent" Grid.Row="0" Grid.Column="1" Margin="10,0,0,0">
+                        <StackPanel Margin="5">
+                            <Label Content="Nume Utilizator Angajat:"/>
+                            <TextBox x:Name="txtNumeUtilizatorAngajatStergere" Margin="0,0,0,10"/>
+                            <Button Content="Șterge Angajat" Click="BtnStergeAngajat_Click" Padding="5"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Lista Angajaților" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
+                        <ListView x:Name="lvAngajati" Margin="5">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Nume Utilizator" DisplayMemberBinding="{Binding NumeUtilizator}" Width="150"/>
+                                    <GridViewColumn Header="Tip Angajat" DisplayMemberBinding="{Binding TipAngajat}" Width="100"/>
+                                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="200"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </GroupBox>
+
+                    <Button Content="Reîmprospătare Listă Angajați" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0" Click="BtnReimprospataAngajati_Click" Padding="5"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Gestionare Promoții">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <GroupBox Header="Adaugă Promotie Nouă" Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+                        <StackPanel Margin="5">
+                            <Label Content="Nume Promotie:"/>
+                            <TextBox x:Name="txtNumePromotie" Margin="0,0,0,5"/>
+                            <Label Content="Descriere:"/>
+                            <TextBox x:Name="txtDescrierePromotie" Margin="0,0,0,5" TextWrapping="Wrap" Height="50"/>
+                            <Label Content="Articole Incluse (separate prin virgulă):"/>
+                            <TextBox x:Name="txtArticolePromotie" Margin="0,0,0,5"/>
+                            <Label Content="Data Start:"/>
+                            <DatePicker x:Name="dpDataStartPromotie" Margin="0,0,0,5"/>
+                            <Label Content="Data Sfârșit:"/>
+                            <DatePicker x:Name="dpDataSfarsitPromotie" Margin="0,0,0,10"/>
+                            <Button Content="Adaugă Promotie" Click="BtnAdaugaPromotie_Click" Padding="5"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Șterge Promotie Existentă" Grid.Row="0" Grid.Column="1" Margin="10,0,0,0">
+                        <StackPanel Margin="5">
+                            <Label Content="Nume Promotie:"/>
+                            <TextBox x:Name="txtNumePromotieStergere" Margin="0,0,0,10"/>
+                            <Button Content="Șterge Promotie" Click="BtnStergePromotie_Click" Padding="5"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Lista Promoțiilor" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
+                        <ListView x:Name="lvPromotii" Margin="5">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Nume Promotie" DisplayMemberBinding="{Binding NumePromotie}" Width="150"/>
+                                    <GridViewColumn Header="Descriere" DisplayMemberBinding="{Binding Descriere}" Width="200"/>
+                                    <GridViewColumn Header="Articole" DisplayMemberBinding="{Binding ArticoleIncluseString}" Width="150"/>
+                                    <GridViewColumn Header="Data Start" DisplayMemberBinding="{Binding DataStart, StringFormat=\{0:dd.MM.yyyy\}}" Width="100"/>
+                                    <GridViewColumn Header="Data Sfârșit" DisplayMemberBinding="{Binding DataSfarsit, StringFormat=\{0:dd.MM.yyyy\}}" Width="100"/>
+                                    <GridViewColumn Header="Discount" DisplayMemberBinding="{Binding DiscountProcent, StringFormat=\{0\}%}" Width="80"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </GroupBox>
+                    <Button Content="Reîmprospătare Listă Promoții" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0" Click="BtnReimprospataPromotii_Click" Padding="5"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

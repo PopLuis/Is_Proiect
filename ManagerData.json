@@ -1,0 +1,35 @@
+{
+  "Angajati": [
+    {
+      "NumeUtilizator": "manager1",
+      "Parola": "manager_pass",
+      "TipAngajat": "Manager",
+      "Email": "manager1@firma.com"
+    },
+    {
+      "NumeUtilizator": "Florian",
+      "Parola": "flo123",
+      "TipAngajat": "Junior",
+      "Email": "flo123@firma.com"
+    },
+    {
+      "NumeUtilizator": "Luis",
+      "Parola": "zece",
+      "TipAngajat": "Senior",
+      "Email": "luispop@firma.com"
+    }
+  ],
+  "Promotii": [
+    {
+      "NumePromotie": "Promotie de Vara",
+      "Descriere": "Un super discount valabil acum!",
+      "ArticoleIncluse": [
+        "Mouse Redragon",
+        "PC Gaming Amd"
+      ],
+      "DataStart": "2025-05-25T00:00:00",
+      "DataSfarsit": "2025-06-19T00:00:00",
+      "DiscountProcent": 10.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Username": "user1",
+    "Produse": [
+      {
+        "Nume": "Laptop Business Dell",
+        "Pret": 3200.0,
+        "Descriere": "Laptop i5, 16GB RAM, SSD 512GB pentru munc\u0103 \u0219i birou.",
+        "Categorie": "laptop",
+        "Cantitate": 1
+      },
+      {
+        "Nume": "Imprimant\u0103 HP LaserJet",
+        "Pret": 890.0,
+        "Descriere": "Imprimant\u0103 laser monocrom\u0103 pentru birou.",
+        "Categorie": "imprimanta",
+        "Cantitate": 1
+      }
+    ],
+    "Status": "Finalizat"
+  }
+]
